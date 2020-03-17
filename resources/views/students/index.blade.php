@@ -1,8 +1,8 @@
 @extends('layouts.layout')
 @section('main')
-  @foreach (config('students.students') as $student)
+  @foreach (config('students.students') as $key => $student)
     <div class="studente">
-      <p>{{$student['nome']}}</p>
+      <a href="{{route('student.show', ['id' => $key])}}"><p>{{$student['nome']}}</p></a>
       <p>{{$student['eta']}}</p>
       <p>{{$student['azienda']}}</p>
       <p>{{$student['ruolo']}}</p>

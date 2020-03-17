@@ -18,4 +18,4 @@ use Illuminate\Support\Facades\Route;
 // });
 Route::get('/', 'HomeController@index')->name('home');
 Route::get('/students', 'StudentsController@index')->name('students.index');
-Route::get('/students/show{id}', 'StudentsController@show')->name('students.show');
+Route::get('/students/show{id}', 'StudentsController@show')->name('student.show');
