@@ -21,4 +21,5 @@ class studentController extends Controller
         }
         return response()->json($result);
     }
+
 }

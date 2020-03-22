@@ -23,7 +23,7 @@
        'img' => 'https://www.boolean.careers/images/students/masetti.png',
        'nome' => 'loana',
        'eta' => 36,
-       'azienda' => ' The Zen Agency',
+       'azienda' => 'The Zen Agency',
        'ruolo' => 'web developer',
        'descrizione' => "Ha scoperto la passione per l'informatica creando un blog di psicologia, ambito in cui si era specializzata durante gli studi. Il suo cuore però non vuol sentir ragione e Loana cambia carriera e diventa una ricercatissima sviluppatrice web.",
        'gender' => 'f'

@@ -4,8 +4,16 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+use App\Student;
+
 class StudentsController extends Controller
 {
+  private $studenti;
+  public function __construct(){
+    $this->studenti = Student::all();
+    dd($this->studenti);
+  }
+
   public function index()
   {
     return view('students.index');
